@@ -1,0 +1,11 @@
+CREATE TABLE products(
+    product_id INT(11) NOT NULL AUTO_INCREMENT, 
+    product_name VARCHAR(25),
+    product_description VARCHAR(250),
+    product_price VARCHAR(10),
+    product_quantity INT (15),
+    product_special VARCHAR(50),
+    product_img VARCHAR(300),
+    product_img_desc VARCHAR(100),
+    primary key(product_id)
+);

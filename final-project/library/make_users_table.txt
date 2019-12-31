@@ -1,0 +1,12 @@
+CREATE TABLE users (
+    user_id INT(11) NOT NULL AUTO_INCREMENT,
+    fname VARCHAR(60),
+    lname VARCHAR(60),
+    address VARCHAR(100),
+    city    VARCHAR(50),
+    state   VARCHAR (25), 
+    zip VARCHAR(15),
+    email VARCHAR(100), 
+    password VARCHAR(200),
+    primary key(user_id)
+); 
