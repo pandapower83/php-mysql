@@ -1,0 +1,27 @@
+Simple Farms Website Logic
+
+Non-admin humans-
+
+index.php is the homepage and loads images and a product info table.  The nav bar gives humans options for:
+Home- index.php
+Produce- gets product info from database and displays in a table- produce.php
+Newsletter- signup for newsletter.  This data gets over on admin side for admin to view user signups- newsletter.php
+Specials- in progress
+Sign in- 2 forms, Sign in allows users to get into admin area and starts a session.  Sign up allows users to register on website, data goes into database allowing them to be redirected to admin side and starting a session.  
+Contact us- sends email
+
+Logged in humans- admin side with a session
+
+admin/index.php- admin home welcoming session user and showing admin nav.
+Produce- gets product info from database and shows product id with data. admin/produce.php
+Add product- adds a product to database and displays image that gets uploaded. the image path is stored in phpmyadmin, and the image itself is stored in admin/uploads/   admin/add_product.php
+Update product- in progress
+Delete product- in progress
+Newsletter signups- views data from people who signedup for the newsletter on the non-admin humans side
+store- shows the main index.php that non-admin humans see.
+log out- ends the session and sends user back to non-admin humans side where they would have to log in again.
+to run the table, just manually dial in product_table_maker.php
+
+How do tables get formed?
+users table gets formed the first time someones signs up.
+products and images table gets formed by manually dialing in product_table_maker.php found in admin/library
