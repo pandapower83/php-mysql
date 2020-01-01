@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sunflower Farms-Newsletter</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+   
+<body>
+   <header>
+       <img src="images/logo.png" alt="Sunflower Farms Logo" height="80">
+       <h2>Sunflower Farms</h2>
+   </header>
+   <main>
+       <section> 
+            <h1>Welcome to Sunflower Farms!</h1>
+            <h2>Tell us more about yourself:</h2>
+               <form action="newsletterprocess.php" method="POST">
+                    First name:<br>
+                    <input type="text" name="first_name">
+                    <br>
+                    Last name:<br>
+                    <input type="text" name="last_name"><br>
+                    Street adddress:<br>
+                    <input type="text" name="street_address"><br>
+                    City:<br>
+                    <input type="text" name="city"><br>
+                    State:<br>
+                    <input type="text" name="state"><br>
+                    Zip code:<br>
+                    <input type="number" min="5" name="zip_code"><br>
+                    Email:<br>
+                    <input type="email" name="email"><br>
+                    <td colspan="2" style="text-align: center;"><input type="submit" value="Sign up!" /></td>
+           </form>
+       </section>
+    </main>
+       
+   </body>
+   </html>
