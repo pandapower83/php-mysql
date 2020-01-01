@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Baby Name Generator</title>
+    <link rel="shortcut icon" href="images/favicon_panda.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+   
+<body>
+   <header>
+       <img src="images/logo.jpg" alt="Baby name generator Logo" height="80">
+       <h2>Baby Name Generator</h2>
+   </header>
+   <main>
+   <section> 
+            <h1>Welcome to Baby Name Generator!</h1>
+            <h2>Enter the following information:</h2>
+               <form action="nameprocess.php" method="POST">
+                    Last name:<br>
+                    <input type="text" name="last_name">
+                    <br>
+                    <select name="boy_or_girl">
+                        <option value="boy">Boy</option>
+                        <option value="girl">Girl</option>
+                    </select>
+                    <br><input type="submit" value="Start Generator!" name="submit" />
+                    
+       </form>
+       </section>
+    </main>
+    </body>
+</html>
