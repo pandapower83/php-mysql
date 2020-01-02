@@ -7,7 +7,7 @@ require('../library/header_sec.html');
 
 require('../library/head.html');
 
-require('library/admin_nav.html');
+require('library/admin_nav.php');
 
 
 //store to test to see if logged in 
